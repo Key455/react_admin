@@ -1,0 +1,12 @@
+{
+  "compileOptions": {
+    "paths": {
+      "@redux/*": ["./src/redux/*"],
+      "@api/*": ["./src/api/*"],
+      "@utils/*": ["./src/utils"]
+    },
+    "path": ".",
+    "module": "es6"
+  },
+  "exclude": ["node_modules"]
+}
